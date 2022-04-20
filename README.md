@@ -20,3 +20,14 @@ In this notebook we will discuss the scraping in three chapters:
 1. The preparation before scraping
 2. The kayak.com/explore scraper
 3. Saving the scraped data in a csv file
+
+# <span style="color:orange">1. The preparation before scraping</span>
+Before the explore page of kayak can be scraped a few things need to be done. The libraries need to be imported for the code to run. 
+
+## 1.1 Importing libraries
+In the first cell the necessary libraries for running our code are imported. This are the libraries we need:
+* The requests library lets us make HTML request to Kayak's website server for retrieving the data from their page.
+* The BeautifulSoup library is easy to use for beginners and will allow us to extract data from HTML files.
+* The time library will be used to pause the execution of the commands. We use this because of the amount of data we gather. 
+* The csv library will be used to store the scraped data in a csv file in the end.
+* The datetime library is necessary to add the current day to our csv file.
